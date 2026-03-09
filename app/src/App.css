@@ -1,5 +1,9 @@
+
 .App {
   text-align: center;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  min-height: 100vh;
+  color: #22223b;
 }
 
 .App-logo {
@@ -14,18 +18,116 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #4b5d67;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #f8fafc;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #5f6caf;
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* Bootstrap table custom colors */
+.table {
+  background-color: #f3f4f6;
+  color: #22223b;
+}
+.table th {
+  background-color: #a3bffa;
+  color: #22223b;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #e0e7ff;
+}
+.table-bordered {
+  border-color: #a3bffa;
+}
+
+/* Bootstrap button custom colors */
+.btn-info {
+  background-color: #5f6caf;
+  border-color: #5f6caf;
+  color: #fff;
+}
+.btn-warning {
+  background-color: #fbbf24;
+  border-color: #fbbf24;
+  color: #22223b;
+}
+.btn-danger {
+  background-color: #ef4444;
+  border-color: #ef4444;
+  color: #fff;
+}
+.btn-primary {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+  color: #fff;
+}
+.btn {
+  font-weight: 500;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  color: #5f6caf;
+  font-weight: 700;
+}
+
+/* Navigation menu */
+.navbar {
+  background-color: #a3bffa !important;
+}
+.navbar-brand {
+  color: #22223b !important;
+  font-weight: bold;
+}
+.nav-link {
+  color: #5f6caf !important;
+  font-weight: 500;
+}
+.nav-link.active, .nav-link:focus {
+  color: #3b82f6 !important;
+}
+
+/* Card styling */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(91, 108, 255, 0.08);
+  border: 1px solid #a3bffa;
+}
+.card-header {
+  background-color: #a3bffa;
+  color: #22223b;
+}
+.card-title {
+  color: #5f6caf;
+}
+
+/* Modal styling */
+.modal-content {
+  border-radius: 10px;
+  border: 1px solid #a3bffa;
+}
+.modal-header {
+  background-color: #a3bffa;
+  color: #22223b;
+}
+.modal-title {
+  color: #5f6caf;
+}
+
+/* Logo styling */
+.octofit-logo {
+  height: 40px;
+  margin-right: 16px;
+  vertical-align: middle;
 }
 
 @keyframes App-logo-spin {
